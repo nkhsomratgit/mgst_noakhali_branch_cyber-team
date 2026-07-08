@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MGST Cyber Agency - Noakhali Branch</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#050505;
+    color:#00ff99;
+    text-align:center;
+}
+
+header{
+    padding:50px 20px;
+}
+
+.logo{
+    font-size:45px;
+    font-weight:bold;
+    animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+    from{
+        text-shadow:0 0 10px #00ff99;
+    }
+    to{
+        text-shadow:0 0 30px #00ffff;
+    }
+}
+
+.subtitle{
+    margin-top:15px;
+    color:white;
+    font-size:18px;
+}
+
+button{
+    margin-top:30px;
+    padding:12px 35px;
+    background:#00ff99;
+    color:black;
+    border:none;
+    border-radius:20px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:white;
+}
+
+#info{
+    display:none;
+    margin:30px auto;
+    width:85%;
+    background:#111;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 20px #00ff99;
+}
+
+.box{
+    margin:20px;
+    padding:20px;
+    background:#111;
+    border-radius:15px;
+}
+
+footer{
+    margin-top:40px;
+    padding:20px;
+    background:#000;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+⚡ MGST CYBER AGENCY ⚡
+<br>
+NOAKHALI BRANCH
+</div>
+
+<p class="subtitle">
+Protect • Educate • Serve
+</p>
+
+<button onclick="showInfo()">
+INFO
+</button>
+
+</header>
+
+
+<div id="info">
+
+<h2>আমাদের সম্পর্কে</h2>
+
+<p>
+MGST Cyber Agency Noakhali Branch
+একটি সাইবার সচেতনতা ও তথ্যভিত্তিক প্ল্যাটফর্ম।
+আমাদের লক্ষ্য হলো অনলাইনে নিরাপত্তা বৃদ্ধি,
+সঠিক তথ্য প্রচার এবং নোয়াখালীর ইতিবাচক দিক তুলে ধরা।
+</p>
+
+</div>
+
+
+<div class="box">
+
+<h2>🛡️ Cyber Awareness</h2>
+
+<p>
+অনলাইন নিরাপত্তা, ফেক নিউজ সম্পর্কে সচেতনতা
+এবং ডিজিটাল নিরাপত্তা সম্পর্কে মানুষকে জানানো।
+</p>
+
+</div>
+
+
+<div class="box">
+
+<h2>📍 Noakhali</h2>
+
+<p>
+নোয়াখালীর ইতিহাস, সংস্কৃতি ও ঐতিহ্য তুলে ধরা আমাদের অন্যতম লক্ষ্য।
+</p>
+
+</div>
+
+
+<div class="box">
+
+<h2>📢 Community</h2>
+
+<p>
+ভুল তথ্যের বিরুদ্ধে শান্তিপূর্ণ ও তথ্যভিত্তিক প্রতিবাদ।
+</p>
+
+</div>
+
+
+<footer>
+© 2026 MGST Cyber Agency Noakhali Branch
+</footer>
+
+
+<script>
+
+function showInfo(){
+    document.getElementById("info").style.display="block";
+}
+
+</script>
+
+
+</body>
+</html>
